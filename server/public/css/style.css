@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Audiowide", monospace;
+    font-size: 1.8rem;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #000;
+    color: whitesmoke;
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+}
+
+img {
+    height: 7rem;
+    width: 7rem;
+    justify-self: center;
+}
+
+h3 {
+    background: #823bdf;
+    background: -webkit-linear-gradient(to top left, #823bdf 0%, #0ea9ec 100%);
+    background: -moz-linear-gradient(to top left, #823bdf 0%, #0ea9ec 100%);
+    background: linear-gradient(to top left, #823bdf 0%, #0ea9ec 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
